@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="jatek.css">
+		<script src="jatek.js"></script>
+	</head>
+	<body>
+
+		<h1 class="gametitle">Tic tac toe game</h1>
+		
+		<table class="gametable">
+		  <tr>
+			<td class="square" id="s11" onclick="gameLogic('s11')"></td>
+			<td class="square" id="s12" onclick="gameLogic('s12')"></td>
+			<td class="square" id="s13" onclick="gameLogic('s13')"></td>
+		  </tr>
+		  <tr>
+			<td class="square" id="s21" onclick="gameLogic('s21')"></td>
+			<td class="square" id="s22" onclick="gameLogic('s22')"></td>
+			<td class="square" id="s23" onclick="gameLogic('s23')"></td>
+		  </tr>
+		  <tr>
+			<td class="square" id="s31" onclick="gameLogic('s31')"></td>
+			<td class="square" id="s32" onclick="gameLogic('s32')"></td>
+			<td class="square" id="s33" onclick="gameLogic('s33')"></td>
+		  </tr>
+		</table>
+
+		<h2 class="info" id="info">Next player: cross X</h2>
+		
+		<div class="resetButtonDiv">
+			<button class="resetButton" onclick="reset()">Reset</button>
+		</div>
+
+		</body>
+</html>
