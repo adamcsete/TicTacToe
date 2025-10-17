@@ -1,0 +1,44 @@
+body {
+	background-color: #00FFFF55;
+}
+
+.gametitle{
+	text-align: center;
+}
+
+.gametable{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.square{
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	padding: 1px;
+	margin: 1px;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 45px;
+	
+}
+
+.square:hover{
+	background-color: #ffa500;
+}
+
+.square:active {
+	background-color:#ff6a00;
+}
+
+.info{
+	text-align: center;
+}
+
+.resetButtonDiv{
+	text-align: center; border: 0px solid grey; padding: 20px;
+}
+
+.resetButton{
+	font-size: 20px;
+}
